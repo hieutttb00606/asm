@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 | Trịnh Trung Hiếu | TB00606</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, nav, main, footer {
+            margin: 0 auto;
+            max-width: 1200px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: space-around;
+        }
+        nav ul li {
+            padding: 10px;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .menu>ul>li {
+            display: inline-block;
+        }
+        .menu>ul>li>a {
+            display: block;
+        }
+        .menu>ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border-radius: 5px;
+            background-color: orangered;
+            text-align: center;
+        }
+        .menu>ul>li>a {
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+        .menu>ul>li>a:hover {
+            color: yellow;
+        }
+        .language {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 20px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .search-bar input {
+            padding: 5px;
+        }
+        .flex-container {
+            display: flex;
+        }
+        .container {
+            display: flex;
+            justify-content: flex-end; 
+            width: 25%;
+        }
+        .etc {
+            width: 100%; 
+        }
+        .noti, .noti2 {
+            margin-bottom: 20px;
+            border: 1px solid black;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        .noti div, .noti2 div {
+            margin-bottom: 10px;
+        }
+        .pagination {
+            text-align: center;
+        }
+        .pagination a {
+            margin: 0 2px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container2 {
+            width: 72%;
+        }
+        .his {
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        .tin{
+            overflow: auto;
+            margin-bottom: 20px;
+        }
+        .tin img{
+            float: left;
+            width: 250px;
+            margin-right: 20px;
+        }
+        .tin a{
+            display: block;
+            font-size: large;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="hinh/truonng tran quoc toan.png" alt="Hình giới thiệu" style="width: 100%; padding-bottom: 20px;">
+        <nav class="menu">
+            <ul>
+                <li><a href="Index.html">Trang chủ</a></li>
+                <li><a href="Introduce.html">Giới thiệu</a></li>
+                <li><a href="Tintuc.html">Tin tức</a></li>
+                <li><a href="Hoatdong.html">Hoạt động giáo dục</a></li>
+                <li><a href="Conect.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="language">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="flex-container">
+            <div class="container2">
+                <div class="his">
+                    <h2 align="center">Quá trình xây dựng và phát triển</h2>
+                    <p>Nằm bình yên trên con phố rợp bóng cây xanh, cách Hồ Gươm không xa, trường TH Trần Quốc Toản là nơi nuôi dạy con em nhân dân Phường Hàng Trống Quận Hoàn Kiếm, Trường được thành lập vào tháng 9 năm 1971.
+                        Trường TH Trần Quốc Toản có diện tích 1476,9 m2, thuộc địa bản Phường Hàng Trống, Quận Hoàn Kiếm, một quận trung tâm thành phố Hà Nội. Đây là những thuận lợi ban đầu của trường, nhưng cũng là thách thức đầy chông gai trên bước đường phát triển đi lên của tập thể giáo viên nhà trường. Bằng sự nỗ lực trong mọi hoạt động, đoàn kết một lòng của tập thể cán bộ giáo viên, công nhân viên, trường TH Trần Quốc Toản đã từng bước khẳng là một trong những trường có chất lượng giáo dục tốt nhất, là địa chỉ tin cậy cho học sinh và phụ huynh
+                        Với phương châm "Kỉ cương - Năng động- Chất lượng- Hội nhập", tập thể giáo viên nhà trường không ngừng cố gắng tu dưỡng và rèn luyện về chuyên môn, nghiệp vụ để xây dựng nhà trường ngày càng phát triển. Hiện nay 100% giáo viên nhà trường đã đạt trình độ trên chuẩn, 100% giáo viên có trình độ tin học, ngoại ngữ từ cấp độ A đến đại học. Nhà trường không ngừng tích cực ứng dụng công nghệ thông tin vào quản lý và giảng dạy. Các giáo viên luôn cố gắng đồi mới phương pháp dạy học thông qua việc sử dụng bài giảng điện tử trong các tiết dạy hàng ngày, đặc biệt là áp dụng dạy học theo định hướng phát triển năng lực học sinh để phù hợp với yêu cầu đổi mới. Nhà trường thường xuyên mời các chuyên gia về tập huấn, trao đổi kinh nghiệm nhằm nâng cao tay nghề cho các giáo viên đã giúp cho chất lượng dạy và học được nâng lên rõ rệt. Nhiều giáo viên của nhà trường đã đạt giải Giáo viên dạy Giỏi cấp Quận, cấp Thành phố, cấp Quốc gia. Nhiều học sinh của trường cũng đạt thành tích đáng nể tại các “đấu trường Quốc tế" với nhiều Huy chương Vàng, Bạc, Đồng liên tục vài năm gần đây.
+                        Song song với các hoạt động học, học sinh nhà trường còn được tham gia các hoạt động Đội, hoạt động giáo dục ngoài giờ lên lớp. Các câu lạc bộ cờ vua, handmade, mĩ thuật, võ thuật... giúp các em học sinh thoải mái cả về thể chất lẫn tinh thần sau những giờ học căng thẳng. Trường cũng tạo ra nhiều sân chơi thú vị cho các em như Rung chuông vàng, Tìm kiếm Tài năng Trần Quốc Toản nhằm đẩy mạnh các phong trào văn nghệ cũng như tìm kiếm, phát hiện những tài năng nhí của các em. Trong các hoạt động như thể dục thể thao, học sinh nhà trường đã giành được nhiều huy chương vàng, bạc, đồng ở các cấp; tham gia các hội diễn văn nghệ do Quận và Thành phố tổ chức, trường đều đạt giải với nhiều tiết mục đặc sắc.
+                        Học sinh được tham gia rất nhiều hoạt động ở trường, chất lượng các mặt giáo dục của nhà trường luôn đạt
+                        kết quả rất cao. 100% học sinh hoàn thành chương trình tiểu học, Trường luôn là điểm sáng về công tác bồi dưỡng học sinh giỏi trong các kỳ thi học sinh giỏi các cấp. Trong các năm học vừa qua, trường liên tục có học sinh đạt giải trong các kì thi các cấp, đặc biệt là cấp Quốc gia và 5 Huy chương Vàng Toán Quốc tế, Đây là thành tích đáng tự hào của nhà trường.
+                        Liên tục là một trong những Tập thể Lao động Xuất sắc cấp Thành phố trong sự nghiệp trồng người, trường đã vinh dự được đón nhận Cờ thi đua dẫn đầu Thành phố khối tiểu học; Bằng khen của UBND Thành phố Hà Nội; Bằng khen của Thủ tướng Chính phủ; Cờ Thi đua Chính phủ; Bằng khen của Bộ trưởng Bộ Giáo dục, Huân chương
+                        lao động hạng Ba, hạng Nhì.
+                        Tự hào về những thành tích mà nhà trường đã đạt được, cán bộ giáo viên, công nhân viên trong nhà trường vẫn không ngừng cố gắng để tiếp tục gặt hái những thành tích cao hơn nữa, xứng đáng với sự quan tâm của các cấp lãnh đạo, sự tin tưởng và yêu quý của các bậc phụ huynh và của các em học sinh đã dành cho nhà trường để
+                        Trần Quốc Toản luôn là “Ngôi trường chắp cánh ước mơ tuổi thơ".</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="etc">
+                    <div class="noti">
+                        <div>Thông báo</div>
+                        <hr>
+                        <div class="tin">
+                            <img src="Images/Hop phu huynh.jpg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">Trường TH Trần Quốc Toản tổ chức họp Trưởng ban Đại diện cha mẹ học sinh
+                                     các lớp tổng kết năm học 2023 – 2024</p>
+                            </div>
+                        </div>
+                    
+                        <div class="tin">
+                            <img src="Images/Be giang.jpg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">Trường Tiểu học Trần Quốc Toản long trọng tổ chức Lễ Bế giảng năm học 2023 - 2024</p>
+                            </div>
+                        </div>
+                    
+                        <div class="tin">
+                            <img src="Images/Buoi hop phu huynh.jpg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">Buổi họp phụ huynh cuối năm học đong đầy cảm xúc của khối lớp Năm</p>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </div>
+                    <div class="noti2">
+                        <div>Sự kiện</div>
+                        <hr>
+                        <div class="tin">
+                            <img src="Images/Lien hoan.jpg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">Trường Tiểu học Trần Quốc Toản tổ chức liên hoan cho học sinh nhân dịp Tổng kết năm học 2023 -2024</p>
+                            </div>
+                        </div>
+                        <div class="tin">
+                            <img src="Images/Tuyen duong.jpeg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">Trường Tiểu học Trần Quốc Toản tự hào tham dự Lễ tuyên dương, khen thưởng Giáo viên giỏi,
+                                    Học sinh giỏi.</p>
+                            </div>
+                        </div>
+                        <div class="tin">
+                            <img src="Images/Tuoi tho.jpg" alt="" style="width: 25%">
+                            <div class="tom-tat">
+                                <p style="font-size: 10px;">"Dấu ấn tuổi thơ" của niên khóa 2019 - 2024</p>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>ĐƠN VỊ CHỦ QUẢN: ỦY BAN NHÂN DÂN QUẬN HOÀN KIẾM</p>
+        <p>TRƯỜNG TIỂU HỌC TRẦN QUỐC TOẢN</p>
+        <p>Chịu trách nhiệm nội dung: Bà Bạch Thị Thanh Huyền – Hiệu trưởng</p>
+        <p>Địa chỉ: Số 33 Nhà Chung, quận Hoàn Kiếm, TP. Hà Nội</p>
+        <p>Điện thoại: 02439380201 - Email: c1tranquoctoan-hk@hanoiedu.vn</p>
+        <p><a href="mailto:c1tranquoctoan-hk@hanoiedu.vn">Liên hệ</a></p>
+    </footer>
+</body>
+</html>
